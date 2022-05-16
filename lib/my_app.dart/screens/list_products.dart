@@ -23,7 +23,6 @@ class ListProducts extends StatelessWidget {
             color: Colors.black,
             ),
             onPressed: (){
-                  
                  Navigator.of(context)
                              .pushReplacement(MaterialPageRoute(
                                builder: (ctx)=> 
@@ -32,8 +31,9 @@ class ListProducts extends StatelessWidget {
                              )
                              );
                              
-
-            }),
+       
+                }
+                ),
             actions: <Widget> [
               IconButton(icon: Icon(Icons.search, color: Colors.black,),
               onPressed: () {},
