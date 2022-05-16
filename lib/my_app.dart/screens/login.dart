@@ -3,13 +3,14 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
 import 'package:shopkg/app_constants.dart/text_style.dart';
-import 'package:shopkg/screens/signup.dart';
-import 'package:shopkg/widgets/changescreen.dart';
-import 'package:shopkg/widgets/mybuttom.dart';
-import 'package:shopkg/widgets/mytextfromfild_widger.dart';
-import 'package:shopkg/widgets/passwordtextformfield.dart';
+
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:shopkg/my_app.dart/screens/signup.dart';
+import 'package:shopkg/my_app.dart/widgets/changescreen.dart';
+import 'package:shopkg/my_app.dart/widgets/mybuttom.dart';
+import 'package:shopkg/my_app.dart/widgets/mytextfromfild_widger.dart';
+import 'package:shopkg/my_app.dart/widgets/passwordtextformfield.dart';
 
 
 

@@ -11,11 +11,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:shopkg/my_app.dart/screens/login.dart';
-import 'package:shopkg/screens/login.dart';
-import 'package:shopkg/widgets/changescreen.dart';
-import 'package:shopkg/widgets/mybuttom.dart';
-import 'package:shopkg/widgets/mytextfromfild_widger.dart';
-import 'package:shopkg/widgets/passwordtextformfield.dart';
+import 'package:shopkg/my_app.dart/widgets/changescreen.dart';
+import 'package:shopkg/my_app.dart/widgets/mybuttom.dart';
+import 'package:shopkg/my_app.dart/widgets/mytextfromfild_widger.dart';
+import 'package:shopkg/my_app.dart/widgets/passwordtextformfield.dart';
+
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 
@@ -157,7 +157,7 @@ return Container(
        name: "Sign Up",
         onPressed: () {
          validation();
-       // print(hjkhjk);
+       
           },
           ),
             ChangeScreen(
